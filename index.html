@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="description" content="Put a short description here." />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <style>
+      #contactbox {
+        padding: 10px 60px 10px 20px;
+        float: right;
+        margin-left: 10px;
+        font-size: 1.2em;
+        font-family: "Inconsolata", monospace;
+        background-color: #f4f4f4;
+        border: 1px solid #e8e8e8;
+        border-radius: 2px;
+        height: 124px;
+        line-height: 1;
+      }
+
+      #headshot {
+        float: right;
+        padding: 0px;
+        margin-left: 5px;
+      }
+
+      #headshot img {
+        border: 1px solid #e8e8e8;
+        height: 124px;
+        border-radius: 2px;
+      }
+    </style>
+
+    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <link href="css/bootstrap-theme.min.css" rel="stylesheet" type="text/css" />
+
+    <link
+      href="https://fonts.googleapis.com/css?family=Lobster|Inconsolata:400,700|Open+Sans:400,300,700,600"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link href="css/resume.css" rel="stylesheet" type="text/css" />
+
+    <title>Nicolás Ballarini CV</title>
+  </head>
+
+  <body style="zoom: 1;">
+    <div class="container">
+      <header>
+        <div id="headshot">
+          <img src="images/Octocat.png" alt="John Doe's headshot" />
+        </div>
+
+        <div id="contactbox">
+          /**<br />
+          * <b>Nicolás Ballarini</b><br />
+          <script>
+            var username = "hireme";
+            var hostname = "nicoballarini@gmail.com";
+            var linktext = username + "@" + hostname;
+            document.write(
+              "* <a href='" +
+                "mail" +
+                "to:" +
+                username +
+                "@" +
+                hostname +
+                "'>" +
+                linktext +
+                "</a><br/>"
+            );
+          </script>
+          *<br />
+          * <a href="https://github.com/nicoballarini/">github</a><br />
+          */
+        </div>
+      </header>
+
+      <section>
+        <h1>Curriculum Vitae</h1>
+
+        <div>
+          <h2>A short summary</h2>
+          <p>
+            I help people to get and understand data through statistics,
+            modeling and visualizations.
+          </p>
+        </div>
+      </section>
+
+      <section>
+        <article>
+          <h2>Timeline</h2>
+          <p>
+            You're probably wondering what I've been up to so far in my career.
+            Click for more info.
+          </p>
+
+          <div id="timeline"></div>
+        </article>
+
+        <div class="page-break"></div>
+        <article>
+          <h2>Some of my skills</h2>
+          <ul>
+            <li id="skillset1">
+              <span class="glyphicon glyphicon-stats" aria-hidden="true"></span
+              >&nbsp;<b>Statistical Programming</b> - SAS (IML, SQL, Macro), R
+            </li>
+            <li id="skillset2">
+              <span
+                class="glyphicon glyphicon-console"
+                aria-hidden="true"
+              ></span
+              >&nbsp;<b>Data Visualization</b> - Tableau, Shiny.
+            </li>
+            <li id="skillset3">
+              <span class="glyphicon glyphicon-stats" aria-hidden="true"></span
+              >&nbsp;<b>Languages</b> - Spanish (Native speaker), English
+              (Fluent).
+            </li>
+          </ul>
+
+          <article>
+            <div id="other">
+              <h3>STATISTICAL SOFTWARE (R packages)</h3>
+              <ul>
+                <li>
+                  <a href="https://nballarini.shinyapps.io/tailTest/"
+                    >tailTest: An inferential methodology for comparability
+                    assessment of biosimilars</a
+                  >
+                </li>
+                <li>
+                  <a href="https://CRAN.R-project.org/package=subtee"
+                    >subtee: Subgroup Treatment Effect Estimation in Clinical
+                    Trials</a
+                  >
+                </li>
+                <li>
+                  <a href="https://CRAN.R-project.org/package=SubgrPlots"
+                    >SubgrPlots: Graphical Displays for Subgroup Analysis in
+                    Clinical Trials</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </article>
+
+          <div id="listofskills"><h3>Some more of my skills</h3></div>
+
+          Hire me and I'll show you how long the list of skills
+          <i>really</i> is.
+        </article>
+
+        <div class="page-break"></div>
+        <article>
+          <div id="experience"><h2>Experience</h2></div>
+        </article>
+        <div class="page-break"></div>
+        <article>
+          <div id="education"><h2>Education</h2></div>
+        </article>
+        <div class="page-break"></div>
+
+        <article>
+          <div id="onlinepresence">
+            <h2>Online Presence</h2>
+            <p>
+              <a href="https://github.com/nicoballarini">
+                <img
+                  src="images/socicon_github.svg"
+                  alt="github"
+                  width="24"
+                  height="24"
+                />
+              </a>
+              <a href="https://www.linkedin.com/in/nicoballarini/">
+                <img
+                  src="images/socicon_linkedin.svg"
+                  alt="linkedin"
+                  width="24"
+                  height="24"
+                />
+              </a>
+            </p>
+          </div>
+        </article>
+      </section>
+      <footer>
+        <p>
+          <!-- <a
+            href="https://twitter.com/share"
+            class="twitter-share-button"
+            data-via="martin_isaksson"
+            data-hashtags="resume"
+            >Tweet</a
+          >
+          <script>
+            !(function(d, s, id) {
+              var js,
+                fjs = d.getElementsByTagName(s)[0],
+                p = /^http:/.test(d.location) ? "http" : "https";
+              if (!d.getElementById(id)) {
+                js = d.createElement(s);
+                js.id = id;
+                js.src = p + "://platform.twitter.com/widgets.js";
+                fjs.parentNode.insertBefore(js, fjs);
+              }
+            })(document, "script", "twitter-wjs");
+          </script> -->
+        </p>
+        <p>
+          Copyright 2015 &copy; Nico Ballarini,&nbsp;
+          <!-- <script>
+            var username = "john";
+            var hostname = "johndoe.com";
+            var linktext = username + "@" + hostname;
+            document.write(
+              "<a href='" +
+                "mail" +
+                "to:" +
+                username +
+                "@" +
+                hostname +
+                "'>" +
+                linktext +
+                "</a><br/>"
+            );
+          </script> -->
+        </p>
+      </footer>
+    </div>
+
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.4.11/d3.min.js"
+      charset="utf-8"
+    ></script>
+    <script src="js/timeline.js" charset="utf-8"></script>
+    <script src="js/skills.js" charset="utf-8"></script>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>

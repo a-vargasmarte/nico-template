@@ -1,0 +1,83 @@
+[
+  {
+    "startdate": "2015-10-01",
+    "enddate": "2019-05-01",
+    "title": "Research Assistant,",
+    "shorttitle": "Research Assistant",
+    "type": "job",
+    "glyph": "star",
+    "description": "<ul><li>Researched statistical methodology for clinical trials for drug development. Wrote R packages for implementation of state-of-the-art statistical methodology</li><li>Collaborated as a statistical expert for designing and analysing multidisciplinary medical studies</li><li>Taught Statistical Methodology Seminar for medical students</li></ul>"
+  },
+  {
+    "startdate": "2015-10-01",
+    "enddate": "2019-05-01",
+    "title": "PhD - Medical Informatics, Biostatistics & Complex Systems",
+    "shorttitle": "PhD in Biostatistics",
+    "type": "education",
+    "glyph": "star",
+    "description": "<ul><li>Dissertation: “Identification and confirmation of subgroups with differential treatment effects in clinical trials”</li></ul>"
+  },
+  {
+    "startdate": "2018-05-01",
+    "enddate": "2018-07-31",
+    "title": "Visiting Graduate Student",
+    "shorttitle": "Visiting Graduate Student",
+    "type": "job",
+    "glyph": "star",
+    "description": "<ul><li>Researched statistical aspects for optimising subgroup selection in two-stage adaptive enrichment and umbrella designs and visualization techniques for subgroup analysis</li></ul>"
+  },
+  {
+    "startdate": "2017-06-01",
+    "enddate": "2017-06-30",
+    "title": "Visiting Graduate Student",
+    "shorttitle": "Visiting Graduate Student",
+    "type": "job",
+    "glyph": "star",
+    "description": "<ul><li>Collaborated with the Statistical Methodology group on research for subgroup analysis in clinical trials</li></ul>"
+  },
+  {
+    "startdate": "2013-09-01",
+    "enddate": "2015-05-31",
+    "title": "MS, Biostatistics",
+    "shorttitle": "MS, Biostatistics",
+    "type": "education",
+    "glyph": "star",
+    "description": "<ul><li>Master's Paper: Working model selection in the Continual Reassessment Method</li></ul>"
+  },
+  {
+    "startdate": "2010-09-01",
+    "enddate": "2014-05-01",
+    "title": "Statistician",
+    "shorttitle": "Statistician",
+    "type": "job",
+    "glyph": "star",
+    "description": "<ul><li>Designed, monitored, and analysed clinical trials and research studies</li><li>Primary statistician in a large multi-center randomized controlled trial (NIH Project # 5R01HD060570) in paediatric traumatic brain injury and in a kidney disease epidemiological study by the public health department of Rosario</li></ul>"
+  },
+  {
+    "startdate": "2009-12-01",
+    "enddate": "2011-06-01",
+    "title": "Statistician",
+    "shorttitle": "Statistician",
+    "type": "job",
+    "glyph": "star",
+    "description": "<ul><li>Analysed registry data for determining disease determinants in the population of Rosario. Designed sampling mechanisms and coordinated field teams for monitoring Dengue outbreaks</li></ul>"
+  },
+  {
+    "startdate": "2008-01-01",
+    "enddate": "2013-01-01",
+    "title": "Statistician",
+    "shorttitle": "Statistician",
+    "type": "job",
+    "glyph": "star",
+    "description": "<ul><li>Analysed registry data for determining disease determinants in the population of Rosario. Designed sampling mechanisms and coordinated field teams for monitoring Dengue outbreaks</li></ul>"
+  },
+  {
+    "startdate": "2006-03-01",
+    "enddate": "2011-03-01",
+    "title": "BS, summa cum laude, Statistics",
+    "shorttitle": "BS, Statistics",
+    "type": "education",
+    "glyph": "star",
+    "description": "<ul><li>Dissertation: Properties of Statistical Control Charts for Multivariate Processes using Markov Chains</li></ul>"
+  }
+]
