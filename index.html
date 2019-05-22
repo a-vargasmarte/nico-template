@@ -7,6 +7,11 @@
     <meta name="description" content="Put a short description here." />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
+    <!-- Load d3.js -->
+    <script src="https://d3js.org/d3.v4.js"></script>
+    <!-- <script src="https://d3js.org/d3.v5.js"></script> -->
+    <script src="https://d3js.org/d3-scale-chromatic.v1.min.js"></script>
+    <script src="https://d3js.org/d3-geo-projection.v2.min.js"></script>
     <style>
       #contactbox {
         padding: 10px 60px 10px 20px;
@@ -99,7 +104,14 @@
             Click for more info.
           </p>
 
-          <div id="timeline"></div>
+          <div id="mapDiv">
+            <svg id="map-timeline" width="600" height="400"></svg>
+          </div>
+
+          <div id="publicationsDiv">
+            <svg id="publications-timeline" width="600" height="400"></svg>
+          </div>
+          <!-- <div id="timeline"></div> -->
         </article>
 
         <div class="page-break"></div>
@@ -239,7 +251,9 @@
       src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.4.11/d3.min.js"
       charset="utf-8"
     ></script>
-    <script src="js/timeline.js" charset="utf-8"></script>
+    <script src="js/map-timeline.js" charset="utf-8"></script>
+    <script src="js/sorted-publications.js" charset="utf-8"></script>
+    <!-- <script src="js/timeline.js" charset="utf-8"></script> -->
     <script src="js/skills.js" charset="utf-8"></script>
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
